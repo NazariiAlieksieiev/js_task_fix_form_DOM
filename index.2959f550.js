@@ -1,0 +1,2 @@
+[...document.querySelectorAll("input")].forEach(e=>{!function(e){let t=e.parentNode,l=document.createElement("label"),{id:a,name:r}=e,n=r.replace(/([A-Z])/g," $1").toUpperCase();l.setAttribute("class","field-label"),l.setAttribute("for",`${a}`),l.textContent=n,t.appendChild(l)}(e),function(e){let{name:t}=e,l=t.replace(/([A-Z])/g," $1").toLowerCase().replace(/^./,e=>e.toUpperCase());e.setAttribute("placeholder",`${l}`)}(e)});
+//# sourceMappingURL=index.2959f550.js.map
